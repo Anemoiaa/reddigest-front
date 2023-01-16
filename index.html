@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Red Digest</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <div class="wrapper">
         <header class="header">
             <div class="header__container">
-                <p  class="header__date">
+                <p class="header__date">
                     <time datetime="2023-01-20">
                         ПЯТНИЦА 20 ЯНВАРЯ
                     </time>
                 </p>
                 <div class="header__soc-media">
                     <img class="header__icon" src="./assets/icons/vk-icon.png" alt="vk-logo">
-                    <img class="header__icon "src="./assets/icons/ok-icon.png" alt="ok-logo">
+                    <img class="header__icon " src="./assets/icons/ok-icon.png" alt="ok-logo">
                 </div>
             </div>
             <section class="after-header">
@@ -28,7 +31,9 @@
                     </div>
                     <div class="search-bar">
                         <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M20.8299 20.0081L15.4164 14.5947C16.6693 13.1521 17.4303 11.2717 17.4303 9.2153C17.4303 4.68581 13.7451 1 9.21494 1C4.68501 1.00016 1 4.68569 1 9.2153C1 13.7448 4.68489 17.4302 9.21494 17.4302C11.2708 17.4302 13.1514 16.6693 14.5935 15.4163L20.0074 20.8298C20.121 20.9434 20.2698 21 20.4188 21C20.5674 21 20.7164 20.9432 20.8296 20.8298C21.0568 20.6028 21.0568 20.2344 20.8295 20.0074L20.8299 20.0081ZM2.16353 9.21571C2.16353 5.32723 5.32705 2.16353 9.21536 2.16353C13.1039 2.16353 16.2676 5.32719 16.2676 9.21571C16.2676 13.1042 13.1041 16.2675 9.21536 16.2675C5.32701 16.2675 2.16353 13.1042 2.16353 9.21571Z" fill="#222222" stroke="#262626" stroke-miterlimit="4.13357"/>
+                            <path
+                                d="M20.8299 20.0081L15.4164 14.5947C16.6693 13.1521 17.4303 11.2717 17.4303 9.2153C17.4303 4.68581 13.7451 1 9.21494 1C4.68501 1.00016 1 4.68569 1 9.2153C1 13.7448 4.68489 17.4302 9.21494 17.4302C11.2708 17.4302 13.1514 16.6693 14.5935 15.4163L20.0074 20.8298C20.121 20.9434 20.2698 21 20.4188 21C20.5674 21 20.7164 20.9432 20.8296 20.8298C21.0568 20.6028 21.0568 20.2344 20.8295 20.0074L20.8299 20.0081ZM2.16353 9.21571C2.16353 5.32723 5.32705 2.16353 9.21536 2.16353C13.1039 2.16353 16.2676 5.32719 16.2676 9.21571C16.2676 13.1042 13.1041 16.2675 9.21536 16.2675C5.32701 16.2675 2.16353 13.1042 2.16353 9.21571Z"
+                                fill="#222222" stroke="#262626" stroke-miterlimit="4.13357" />
                         </svg>
                         <input class="search" type="text" name="search">
                     </div>
@@ -75,7 +80,8 @@
                         <p class="main-news__preview">
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                             Esse, rem. Quibusdam ad architecto amet numquam dolor exercitationem beatae voluptatem?
-                            Eaque provident similique exercitationem illum quo, ab expedita tenetur hic maxime, ipsum animi quia suscipit aut consequuntur.
+                            Eaque provident similique exercitationem illum quo, ab expedita tenetur hic maxime, ipsum
+                            animi quia suscipit aut consequuntur.
                         </p>
                         <h5 class="main-news__author">Автор А.Фролов</h5>
                         <button class="main-new__btn read-btn">Читать</button>
@@ -106,8 +112,61 @@
                     </div>
                 </div>
             </section>
+            <section class="category">
+                <div class="category__container">
+                    <h2 class="category__title">В России</h2>
+                    <div class="swiper category__swiper">
+                        <div class="swiper-wrapper">
+                            <article class="news swiper-slide">
+                                <img class="news__image"  src="./assets/news-3.png" alt="preview">
+                                <h3 class="news__title">Заголовок статьи</h3>
+                                <h5 class="news__author">Автор А.Фролов</h5>
+                            </article>
+                            <article class="news swiper-slide">
+                                <img class="news__image"  src="./assets/news-3.png" alt="preview">
+                                <h3 class="news__title">Заголовок статьи</h3>
+                                <h5 class="news__author">Автор А.Фролов</h5>
+                            </article>
+                            <article class="news swiper-slide">
+                                <img class="news__image"  src="./assets/news-3.png" alt="preview">
+                                <h3 class="news__title">Заголовок статьи</h3>
+                                <h5 class="news__author">Автор А.Фролов</h5>
+                            </article>
+                            <article class="news swiper-slide">
+                                <img class="news__image"  src="./assets/news-3.png" alt="preview">
+                                <h3 class="news__title">Заголовок статьи</h3>
+                                <h5 class="news__author">Автор А.Фролов</h5>
+                            </article>
+                            <article class="news swiper-slide">
+                                <img class="news__image"  src="./assets/news-3.png" alt="preview">
+                                <h3 class="news__title">Заголовок статьи</h3>
+                                <h5 class="news__author">Автор А.Фролов</h5>
+                            </article>
+                            <article class="news swiper-slide">
+                                <img class="news__image"  src="./assets/news-3.png" alt="preview">
+                                <h3 class="news__title">Заголовок статьи</h3>
+                                <h5 class="news__author">Автор А.Фролов</h5>
+                            </article>
+                        </div>
+                        <div class="swiper-navigation">
+                            <div class="swiper-button-prev">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"/>
+                                </svg>
+                            </div>
+                            <div class="swiper-button-next">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./js/scroll.js"></script>
+    <script src="./js/category-swiper.js"></script>
 </body>
 </html>
