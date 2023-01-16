@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     window.onscroll = function() {
         headerShrink()
     };
+    headerShrink()
 
     function headerShrink() {
         if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
