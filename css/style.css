@@ -89,6 +89,8 @@ body {
 }
 
 .header__date {
+    display: flex;
+    align-items: center;
     height: 100%;
     padding: 18px 33px;
     background-color: #d82e20;
@@ -101,4 +103,24 @@ body {
 .header__soc-media {
     display: flex;
     gap: 30px;
+}
+
+.header__icon {}
+
+@media (max-width: 1024px) {
+    .header__soc-media {
+        display: flex;
+        gap: 20px;
+    }
+
+    .header__icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .header__date {
+        padding: 14px 26px;
+        font-size: 16px;
+        line-height: 1.22;
+    }
 }
