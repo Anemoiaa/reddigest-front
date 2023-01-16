@@ -1,0 +1,80 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+}
+
+@font-face {
+    font-family: 'calibrilight_italic';
+    src: url('../fonts/calibri_light_italic-webfont.woff2') format('woff2'),
+         url('../fonts/calibri_light_italic-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'calibriregular';
+    src: url('../fonts/calibri-regular-webfont.woff2') format('woff2'),
+         url('../fonts/calibri-regular-webfont.woff') format('woff');
+}
+
+body {
+    font-family: 'calibriregular';
+    font-size: 12px;
+    color: #616161;
+}
+
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+[class*="__container"] {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0px auto;
+    padding: 0px 20px;
+}
+
+.test {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.test2 {
+    font-family: 'calibrilight_italic';
+    font-size: 36px;
+}
