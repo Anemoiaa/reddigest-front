@@ -132,17 +132,22 @@ body {
 }
 
 .after-header {
-    margin-top: 72px;
+    margin-top: 12px;
+    background-color: #ffffff;
 }
 
 .after-header__container {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .logo {
     margin-left: -9px;
+}
+
+.logo img {
+    transition: 0.5s;
 }
 
 .search-bar {
@@ -166,7 +171,7 @@ body {
 }
 
 .menu {
-    margin-top: 50px;
+    margin-top: 210px;
     margin-bottom: 40px;
 }
 
