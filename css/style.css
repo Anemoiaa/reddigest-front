@@ -499,3 +499,40 @@ body {
     font-size: 24px;
     line-height: 1.1;
 }
+
+.footer {
+    margin-top: 50px;
+    background-color: var(--color-main);
+}
+
+.footer__container {
+    padding-top: 21px;
+    padding-bottom: 20px;
+}
+
+.footer__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #ffffff;
+}
+
+.footer_rights {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #ffffff;
+}
+
+.footer_rights p:nth-child(2) {
+    text-transform: uppercase;
+}
