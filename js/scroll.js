@@ -5,7 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const headerIcons = document.querySelectorAll('.header__icon');
     const afterHeader = document.querySelector('.after-header');
     const logo = document.querySelector('.logo img');
-    const logoDiv = document.querySelector('.logo')
+    const logoDiv = document.querySelector('.logo');
+    const socMedia = document.querySelector('.header__soc-media');
 
     window.onscroll = function () {
         headerShrink()
@@ -24,6 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
             afterHeader.style.marginTop = '0px';
             logo.style.width = '50%';
             logoDiv.style.marginLeft = '-5px';
+            socMedia.style.gap = '15px';
 
         } else {
             header.style.height = '37px';
@@ -36,6 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
             afterHeader.style.marginTop = '12px';
             logo.style.width = '80%';
             logoDiv.style.marginLeft = '-9px';
+            socMedia.style.gap = '30px';
         }
     }
 });

@@ -112,12 +112,16 @@ body {
 .header__soc-media {
     display: flex;
     gap: 30px;
+
+    transition: 0.5s;
 }
 
 .header__icon {
     width: 25px;
     height: 25px;
     cursor: pointer;
+
+    transition: 0.5s;
 }
 
 .after-header {
