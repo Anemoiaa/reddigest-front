@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
             header.style.height = '17px';
             headerDate.style.padding = '4px 45px';
-            headerDate.style.fontSize = '18px';
+            headerDate.style.fontSize = '16px';
             headerIcons.forEach(icon => {
                 icon.style.width = '15px';
                 icon.style.height = '15px';
