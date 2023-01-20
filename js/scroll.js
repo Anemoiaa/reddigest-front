@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     headerShrink()
 
     function headerShrink() {
-        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
             header.style.height = '17px';
             headerDate.style.padding = '4px 45px';
             headerDate.style.fontSize = '16px';

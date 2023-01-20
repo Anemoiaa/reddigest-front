@@ -105,6 +105,8 @@ body {
     font-size: 20px;
     line-height: 1.22;
     color: #fff;
+
+    transition: 0.5s;
 }
 
 .header__soc-media {
