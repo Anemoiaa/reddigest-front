@@ -106,7 +106,7 @@ body {
 
 .header__soc-media {
     display: flex;
-    gap: 30px;
+    gap: 22px;
 
     transition: 0.5s;
 }

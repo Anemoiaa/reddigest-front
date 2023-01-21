@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
             afterHeader.style.marginTop = '0px';
             logo.style.width = '50%';
             logoDiv.style.marginLeft = '-5px';
-            socMedia.style.gap = '15px';
+            socMedia.style.gap = '12px';
 
         } else {
             header.style.height = '37px';
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
             afterHeader.style.marginTop = '12px';
             logo.style.width = '80%';
             logoDiv.style.marginLeft = '-9px';
-            socMedia.style.gap = '30px';
+            socMedia.style.gap = '22px';
         }
     }
 });
