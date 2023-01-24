@@ -329,7 +329,7 @@ section.news-block > div > div > div:nth-child(1) {
 
 .category__swiper .swiper-button-prev,
 .category__swiper .swiper-button-next {
-    margin-top: -50px;
+    top: 114px;
     width: 40px;
     height: 40px;
     border-radius: 50%;
