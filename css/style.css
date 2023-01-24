@@ -116,16 +116,15 @@ body {
     top: 56px; /* header height + 12px margin-top */
     right: 0;
     left: 0;
-
     background-color: #ffffff;
-
     transition: 0.5s;
+    z-index: 99999999;
 }
 
 .after-header__container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .logo {
@@ -138,7 +137,8 @@ body {
 }
 
 .search-bar {
-    width: 235px;
+    width: 180px;
+    margin-top: 5px;
     margin-right: 30px;
     padding: 5px 15px;
     display: flex;
@@ -155,7 +155,6 @@ body {
     font-family: 'calibri-regular';
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.22;
 }
 
 .menu {
