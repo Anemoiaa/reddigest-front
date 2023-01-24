@@ -72,14 +72,9 @@ body {
 }
 
 .header {
-    position: fixed;
-    top: 0;
     width: 100%;
-    height: 37px;
+    height: 44px;
     background-color: var(--color-main) ;
-
-    transition: 0.5s;
-    z-index: 999999;
 }
 
 .header__container {
@@ -100,15 +95,11 @@ body {
     font-size: 20px;
     line-height: 1.22;
     color: #fff;
-
-    transition: 0.5s;
 }
 
 .header__soc-media {
     display: flex;
-    gap: 22px;
-
-    transition: 0.5s;
+    gap: 17px;
 }
 
 .header__icon {
@@ -120,8 +111,15 @@ body {
 }
 
 .after-header {
-    margin-top: 12px;
+    position: -webkit-sticky;
+    position: fixed;
+    top: 56px; /* header height + 12px margin-top */
+    right: 0;
+    left: 0;
+
     background-color: #ffffff;
+
+    transition: 0.5s;
 }
 
 .after-header__container {
