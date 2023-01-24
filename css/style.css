@@ -474,7 +474,7 @@ section.news-block > div > div > div:nth-child(1) {
 .category-two__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 30px;
+    grid-column-gap: 15px;
 }
 
 .category-two__block {
@@ -487,18 +487,28 @@ section.news-block > div > div > div:nth-child(1) {
     margin-top: 30px;
 }
 
+section.category.category-two > div > section:nth-child(2) > div > article {
+    padding-left: 14px;
+    border-left: 1px solid #cccccc;
+}
+
 .block-two__news {
     padding-right: 17px;
     border-right: 1px solid #cccccc;
 }
 
 .mini-feed {
+    flex: 1 1 auto;
     padding-left: 17px;
 }
 
 .mini-feed__news {
     padding-bottom: 15px;
     border-bottom: 1px solid #cccccc;
+}
+
+.mini-feed .news:last-child {
+    border: none;
 }
 
 .mini-feed__news-title {
