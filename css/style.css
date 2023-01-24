@@ -309,6 +309,11 @@ section.news-block > div > div > div:nth-child(1) {
     margin-top: 40px;
 }
 
+.category.russia .main-news__image {
+    max-height: 345px;
+    max-width: 517px;
+}
+
 .category__container {
     padding-top: 25px;
     border-top: 1px solid var(--color-main);
