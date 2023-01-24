@@ -88,11 +88,11 @@ body {
     display: flex;
     align-items: center;
     height: 100%;
-    padding: 18px 33px;
+    padding: 18px 26px;
     background-color: #d82e20;
 
     font-family: 'calibri-regular';
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.22;
     color: #fff;
 }
@@ -103,11 +103,9 @@ body {
 }
 
 .header__icon {
-    width: 25px;
-    height: 25px;
+    width: 28px;
+    height: 28px;
     cursor: pointer;
-
-    transition: 0.5s;
 }
 
 .after-header {
@@ -158,7 +156,7 @@ body {
 }
 
 .menu {
-    margin-top: 210px;
+    margin-top: 180px;
     margin-bottom: 40px;
 }
 
