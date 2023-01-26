@@ -134,6 +134,50 @@ body {
     transition: 0.5s;
 }
 
+.tools {
+    display: flex;
+    align-items: flex-start;
+}
+
+.burger-menu {
+    display: none;
+    position: relative;
+    margin-top: 9px;
+}
+
+.burger-menu__icon {
+    width: 20px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.burger-menu .menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 20px;
+    background-color: #fff;
+
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+}
+
+.burger-menu .menu__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.burger-menu .menu__item {
+    padding-bottom: 2px;
+    border-bottom: 0.5px solid #cccccc ;
+}
+
+.burger-menu .menu__link {
+    font-size: 20px;
+}
+
 .search-bar {
     width: 180px;
     margin-top: 5px;
